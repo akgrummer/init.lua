@@ -34,7 +34,7 @@ return require('packer').startup(function(use)
   })
 
 
-  use({"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"})
+  use("nvim-treesitter/nvim-treesitter", {run = ":TSUpdate"})
   use("nvim-treesitter/playground")
   use("theprimeagen/harpoon")
   use("theprimeagen/refactoring.nvim")
@@ -69,6 +69,9 @@ return require('packer').startup(function(use)
   use("github/copilot.vim")
   use("eandrju/cellular-automaton.nvim")
   use("laytan/cloak.nvim")
+  use("ojroques/nvim-osc52")
+  use("terrortylor/nvim-comment")
+
 
 end)
 
