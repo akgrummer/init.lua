@@ -16,3 +16,23 @@ about though i would just suggest `git log -S`).
 * [a3bad06a](https://github.com/ThePrimeagen/init.lua/commit/a3bad06a4681c322538d609aa1c0bd18880f77c6) disabled eslint.  driving me crazy
 
 
+### Aidan's notes:
+
+using branch: custom
+using these configurations on local computer now
+
+to start using had to:
+```
+mv after/plugin after/temp_plugin
+```
+and then back again after:
+opening lua/theprimeagen/packer.lua
+running `:so` in the vim command line
+then running `:PackerSync`
+
+-- now added spell highlight color to the colors plugin (in `after` directory)
+
+
+
+
+
